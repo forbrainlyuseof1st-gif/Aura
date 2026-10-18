@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA — Gaurav Tiwari | Digital Studio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Animated Blobs -->
+    <div class="blob-container">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">AURA<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Work</a></li>
+                <li><a href="#stats">Impact</a></li>
+            </ul>
+        </nav>
+        <a href="#contact" class="btn-primary">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+        <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> Founded & Crafted by Gaurav Tiwari</div>
+        <h1 class="hero-title">We Build <span class="gradient-text">Next-Level</span> Digital Experiences</h1>
+        <p class="hero-subtitle">High-performance websites, stunning UI/UX designs, and scalable web solutions crafted with precision and passion by Gaurav Tiwari.</p>
+        <div class="hero-btns">
+            <a href="#portfolio" class="btn-primary">Explore Work</a>
+            <a href="#services" class="btn-secondary">Our Services</a>
+        </div>
+    </section>
+
+    <!-- About Creator Section -->
+    <section id="about" class="about">
+        <div class="about-card">
+            <div class="about-info">
+                <h2>Meet the Mind Behind AURA</h2>
+                <h3 class="gradient-text">Gaurav Tiwari</h3>
+                <p>Lead Developer & UI/UX Architect creating modern, interactive, and high-performance digital solutions for clients worldwide.</p>
+                <div class="about-tags">
+                    <span><i class="fa-solid fa-check"></i> Web Developer</span>
+                    <span><i class="fa-solid fa-check"></i> UI/UX Designer</span>
+                    <span><i class="fa-solid fa-check"></i> Tech Innovator</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Our <span class="gradient-text">Expertise</span></h2>
+            <p>Innovative solutions tailored to scale your brand.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon"><i class="fa-solid fa-code"></i></div>
+                <h3>Web Development</h3>
+                <p>Ultra-fast, responsive, and robust modern web applications built using cutting-edge tech stacks.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                <h3>UI/UX Architecture</h3>
+                <p>Intuitive user interfaces and user journey mapping designed to maximize engagement and conversion.</p>
+            </div>
+            <div class="service-card">
+                <div class="icon"><i class="fa-solid fa-rocket"></i></div>
+                <h3>Brand Strategy</h3>
+                <p>Crafting powerful digital identities that stand out in crowded industries and leave lasting impressions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section with Images -->
+    <section id="portfolio" class="portfolio">
+        <div class="section-header">
+            <h2>Featured <span class="gradient-text">Projects</span></h2>
+            <p>A glimpse of our finest digital creations.</p>
+        </div>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web App</button>
+            <button class="filter-btn" data-filter="design">UI/UX</button>
+        </div>
+        <div class="portfolio-grid">
+            <!-- Project 1 with 1.jpg -->
+            <div class="portfolio-card" data-category="web">
+                <div class="image-wrapper">
+                    <img src="1.jpg" alt="CyberX Dashboard Project">
+                </div>
+                <div class="card-inner">
+                    <h3>CyberX Dashboard</h3>
+                    <p>SaaS Analytics Platform</p>
+                </div>
+            </div>
+
+            <!-- Project 2 with 2.jpg -->
+            <div class="portfolio-card" data-category="design">
+                <div class="image-wrapper">
+                    <img src="2.jpg" alt="Neptune Mobile Project">
+                </div>
+                <div class="card-inner">
+                    <h3>Neptune Mobile</h3>
+                    <p>Fintech Wallet UI Design</p>
+                </div>
+            </div>
+
+            <!-- Project 3 with 3.jpg -->
+            <div class="portfolio-card" data-category="web">
+                <div class="image-wrapper">
+                    <img src="3.jpg" alt="Vortex Engine Project">
+                </div>
+                <div class="card-inner">
+                    <h3>Vortex Engine</h3>
+                    <p>3D Web-GL Rendering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats">
+        <div class="stat-box">
+            <h3 class="counter" data-target="128">0</h3>
+            <p>Projects Completed</p>
+        </div>
+        <div class="stat-box">
+            <h3 class="counter" data-target="98">0</h3>
+            <p>% Client Satisfaction</p>
+        </div>
+        <div class="stat-box">
+            <h3 class="counter" data-target="15">0</h3>
+            <p>Global Awards</p>
+        </div>
+    </section>
+
+    <!-- Animated Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo">AURA<span>.</span></div>
+                <p>Pushing the boundaries of what is possible on the web. Let's create something extraordinary together.</p>
+                <div class="footer-contact-details">
+                    <p class="footer-contact-item">
+                        <i class="fa-solid fa-phone"></i> 
+                        <a href="tel:+919712872758">+91 97128 72758</a>
+                    </p>
+                    <p class="footer-contact-item">
+                        <i class="fa-solid fa-envelope"></i> 
+                        <a href="mailto:forbrainlyuseof1st@gmail.com">forbrainlyuseof1st@gmail.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#stats">Stats</a></li>
+                </ul>
+            </div>
+            <div class="footer-newsletter">
+                <h4>Join Our Newsletter</h4>
+                <p>Get the latest design & tech trends delivered to your inbox.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed successfully!');">
+                    <input type="email" placeholder="Enter your email..." required>
+                    <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AURA Studio. Crafted with <i class="fa-solid fa-heart" style="color: #ec4899;"></i> by Gaurav Tiwari.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
